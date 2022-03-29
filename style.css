@@ -1,0 +1,57 @@
+:root {
+  --cor-principal: #ffffff;
+  --fonte-principal: "calibri";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(img/projeto.jpg);
+  font-family: var(--fonte-principal);
+}
+
+.formulario {
+  text-align: center;
+  align-items: center;
+  border: solid var(--cor-principal);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: end;
+}
+
+.label-padrao {
+  display: block;
+  text-align: start;
+}
+
+.input-padrao {
+  margin: 10px 10px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.botao-reset-e-enviar {
+  display: inline;
+  margin: 10px;
+  width: 6em;
+  color: black;
+  background-color: var(--cor-principal);
+}
+
+.titulo-principal {
+  color: var(--cor-principal);
+  font-size: 30px;
+}
+
+label {
+  color: var(--cor-principal);
+  font-size: 1.2em;
+}
